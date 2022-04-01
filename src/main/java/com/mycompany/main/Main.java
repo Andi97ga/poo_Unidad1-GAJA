@@ -67,19 +67,18 @@ public class Main {
         nd.nombreConsencionario  = "Metrocar";
         System.out.println("El nombre de la Consencionaria es: "+nd.nombreConsencionario );
         //////////////////////Computadora////////////////////////
-        var car= new Computadora();
-       car.marca="Hyundai";
-        System.out.println("Marca: "+car.marca);
-        var model = new Computadora();
-        model.modelo="Sonata";
-        System.out.println("Modelo: "+model.modelo);
-       var anio = new Computadora();
-        anio.año=2015;
-        System.out.println("El año del carro es: "+anio.año);
-        var nd = new Computadora();
-        nd.nombreConsencionario  = "Metrocar";
-        System.out.println("El nombre de la Consencionaria es: "+nd.nombreConsencionario );
-        
-        
+        var marc= new Computadora();
+       marc.marca="Lenovo";
+        System.out.println("Marca: "+marc.marca);
+        var mod = new Computadora();
+        mod.modelo="Lenovo_yoga";
+        System.out.println("Modelo: "+mod.modelo);
+       var cap = new Computadora();
+        cap.capacidad=16;
+        System.out.println("La capacidad de la computadora es de: "+cap.capacidad+ "GB");
+        var gen = new Computadora();
+        gen.generacion  = 7;
+        System.out.println("El nombre de la Consencionaria es: "+gen.generacion+"ma"  );
+         
     }
 }
